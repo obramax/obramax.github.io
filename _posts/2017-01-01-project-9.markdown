@@ -1,0 +1,10 @@
+---
+title: Pintura
+layout: default
+position: 8
+date: 2017-01-01
+img: icones-08.png
+thumbnail: icones-08.png
+alt: Pintura
+category: line_3
+---

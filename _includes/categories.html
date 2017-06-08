@@ -1,0 +1,28 @@
+<!-- Portfolio Grid Section -->
+    <section id="categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Categorias</h2>
+                    <p class="lead">
+                        A Obramax oferece uma <b>gama técnica ampla</b>, selecionada e <b>disponível em grandes volumes</b> com <b>produtos de qualidade</b> e <b>marcas profissionais</b>, <b>preços transparentes</b> e <b>competitivos</b>.
+                    </p>
+                </div>
+            </div>
+            <br><br>
+        {% assign categories = site.posts | sort: 'position' | group_by: 'category' %}
+        {% for category in categories %}
+            <div class="row">
+                {% for post in category.items %}
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <img src="img/categories/{{ post.thumbnail }}" class="img-responsive img-centered img-category" alt="{{ post.title }}" width="300" width="300">
+                        <div class="portfolio-caption">
+                            <h4 class="hidden">{{ post.title }}</h4>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <br>
+        {% endfor %}
+        </div>
+    </section>

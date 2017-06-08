@@ -1,0 +1,9 @@
+---
+title: Louças e Metais
+layout: default
+position: 6
+img: icones-07.png
+thumbnail: icones-07.png
+alt: Louças e Metais
+category: line_2
+---

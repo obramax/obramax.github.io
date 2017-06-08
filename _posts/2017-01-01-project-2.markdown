@@ -1,0 +1,9 @@
+---
+title: Esquadrias
+layout: default
+position: 4
+img: icones-01.png
+thumbnail: icones-01.png
+alt: Esquadrias
+category: line_1
+---
