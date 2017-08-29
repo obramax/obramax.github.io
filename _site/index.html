@@ -548,7 +548,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl send-message-btn">Enviar Mensagem</button>
+                                <button type="submit" class="btn btn-xl" data-trigger="google-pixel">Enviar Mensagem</button>
                             </div>
                         </div>
                     </form>
@@ -606,7 +606,7 @@
     </script>
 	<script>
 		$(document).ready(function(){
-			$(document).on('click','.send-message-btn',function(){
+			$(document).on('click','[data-trigger="google-pixel"]',function(){
 				$('body').append('<script type="text/javascript">var google_conversion_id = 842553025;var google_conversion_language = "en";var google_conversion_format = "3";var google_conversion_color = "ffffff";var google_conversion_label = "WDTtCPfwiHQQwa3hkQM";var google_remarketing_only = false;</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/842553025/?label=WDTtCPfwiHQQwa3hkQM&amp;guid=ON&amp;script=0"/></div></noscript>');
 			});
 		});
