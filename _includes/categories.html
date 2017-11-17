@@ -15,7 +15,7 @@
             <div class="row">
                 {% for post in category.items %}
                     <div class="col-md-3 col-sm-6 portfolio-item">
-                        <img src="img/categories/{{ post.thumbnail }}" class="img-responsive img-centered img-category" alt="{{ post.title }}" width="300" width="300">
+                        <img src="img/categories/{{ post.thumbnail }}" class="img-responsive img-centered img-category" alt="{{ post.title }}" title="{{ post.title }}" width="300" width="300">
                         <div class="portfolio-caption">
                             <h4 class="hidden">{{ post.title }}</h4>
                         </div>
