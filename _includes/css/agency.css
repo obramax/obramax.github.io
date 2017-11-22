@@ -813,6 +813,17 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+    float: right;
+}
+
+.icon_facebook {
+    float: left;
+    max-width: 40px;
+    margin-left: 20px;
+}
+
+.icon_facebook img {
+    max-width: 100%;
 }
 
 ul.social-buttons {

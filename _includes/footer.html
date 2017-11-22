@@ -2,18 +2,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <div class="icon_facebook">
+                        <a href="https://www.facebook.com/obramaxatacado/" target="_blank">
+                            <img src="img/Facebook-Logo.png" alt="Siga-nos no Facebook" title="Siga-nos no Facebook">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
+                <div class="col-md-3">
+                    <!-- <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
-                    </ul>
+                    </ul> -->
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <ul class="list-inline quicklinks">
+                        <li class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</li>
                         <li><a href="img/TCG_REVENDA_OBRAMAX.pdf">Termos de Revenda</a></li>
                     </ul>
                 </div>
