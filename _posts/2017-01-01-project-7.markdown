@@ -1,9 +1,9 @@
 ---
-title: Cerâmica
+title: Pisos e Revestimentos
 layout: default
 position: 5
 img: icones-06.png
 thumbnail: icones-06.png
-alt: Cerâmica
+alt: Pisos e Revestimentos
 category: line_2
 ---
