@@ -62,13 +62,20 @@
 .group-sector {
     margin: 40px 0;
 }
-.group-sector dd {
-    margin-bottom: 30px;
+.icons_full {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.group-sector dt {
-    color: #666;
-    font-weight: normal;
-    margin-bottom: 20px;
+.icons_full .box_icon {
+    margin: 10px;
+}
+.group-sector dd {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 body {
     overflow-x: hidden;
